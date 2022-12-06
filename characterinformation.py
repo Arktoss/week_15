@@ -16,6 +16,7 @@ class hero:
         self.level = level
         self.loot = loot
         self.attackDamage = attackDamage
+
     def heroattackcalc(self, boss):
         boss.hp %= (self.attackDamage - boss.hp)
 
@@ -42,4 +43,3 @@ class boss:
     
     def enemyDefend():
         pass
-
